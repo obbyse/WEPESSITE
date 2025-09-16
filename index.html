@@ -12,11 +12,12 @@
             font-family: 'freerol';
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            
+            
                 }
 
         .scale-hover {
-            transition: transform 0.3;
+            transition: transform 0.3s;
         }
         .scale-hover:hover {
             transform: scale(1.1);
@@ -27,13 +28,25 @@
             font-size: 75px;
             -webkit-text-stroke: 2px black;
             text-shadow: 3px 3px 3px black;
+    }
+        H2 {
+            color: white;
+            align-self: center;
+            margin-top: -50px;
+            font-size: 45px;
+            -webkit-text-stroke: 2px black;
+            text-shadow: 3px 3px 3px black;            
         }
+        
         img {
-        max-width: 75%;
-        align-self: center;
+        max-width: 45%;
+        margin-top: -60px;
+        
+
+    }
+    .shadow {
         box-shadow: 0px 0px 20px;
     }
-        
 
     </style>
     
@@ -42,10 +55,11 @@
 
 </head>
 <body>
-    <h1>Welcome To my Website
+    <h1 class="scale-hover"> Welcome To my Website</h1>
+    <H2 class="scale-hover"> This is my Safe Space</H2>
+    <img class="scale-hover" style="margin-left: -10px max-height 40%;;" src="player.png">
+    <img class="scale-hover shadow" style="margin-top: 80px" src="suntzu.jpg">
 
-    </h1>
-    <img src="suntzu.jpg"
 </body>
 
 
